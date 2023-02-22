@@ -1,0 +1,51 @@
+<div>
+          <div className="location">
+              <div className="location-contact">
+                  <div className="contact">
+                  <Link to="https://www.google.com/maps/dir//Nessa's+Braiding,+3730+Sterling+Woods+Ln,+Richmond,+VA+23237/@37.4176896,-77.45995,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x89b10f91bfba268f:0xa3b5db2f925989b0!2m2!1d-77.4576923!2d37.4176385!3e0"><FaMapMarkedAlt></FaMapMarkedAlt></Link>
+                  <Link to="tel:+18042434048"><FaPhone></FaPhone></Link>
+              </div>
+              <div className="hours">
+                  <div className="hours-header">
+                      <h3 className="title">Opening Hours</h3>
+                      <div className="icon"><FaClock></FaClock></div>
+                  </div>
+                  <div className="days">
+                      <ul>
+                          <li>
+                              <span className="mon">Monday</span>
+                              <span className="time">9AM - 6PM</span>
+                          </li>
+                          <li>
+                              <span className="tue">Tuesday</span>
+                              <span className="time">9AM - 6PM</span>
+                          </li>
+                          <li>
+                              <span className="wed">Wednesday</span>
+                              <span className="time">9AM - 6PM</span>
+                          </li>
+                          <li>
+                              <span className="thu">Thursday</span>
+                              <span className="time">9AM - 6PM</span>
+                          </li>
+                          <li>
+                              <span className="fri">Friday</span>
+                              <span className="time">9AM - 9PM</span>
+                          </li>
+                          <li>
+                              <span className="sat">Saturday</span>
+                              <span className="time">6AM - 9PM</span>
+                          </li>
+                          <li>
+                              <span className="sun">Sunday</span>
+                              <span className="time">6AM - 5PM</span>
+                          </li>
+                      </ul>
+                  </div>
+                  </div>
+                  <div className="location-map">
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.821674340004!2d-77.45994998476276!3d37.41768964039628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b10f91bfba268f%3A0xa3b5db2f925989b0!2sNessa&#39;s%20Braiding!5e0!3m2!1sen!2sus!4v1675811650144!5m2!1sen!2sus" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Nessa's Braiding Google Map Direction" ></iframe>
+                  </div>
+              </div>
+          </div>  
+    </div>

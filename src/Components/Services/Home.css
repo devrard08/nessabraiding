@@ -1,0 +1,42 @@
+li a {
+    color: var(--dark);
+}
+
+.card {
+    border: .5px solid var(--dark);
+    width: 300px;
+    margin: .75rem;
+    padding: .75rem;
+}
+
+.card:last-child {
+    margin-bottom: 2rem;
+}
+
+.card-title {
+    margin-bottom: .2rem;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.card-subtitle {
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+.backToTop {
+    display: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .card {
+        width: 100%;
+    }
+
+    .backToTop {
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
+}
