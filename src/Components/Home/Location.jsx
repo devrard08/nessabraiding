@@ -36,6 +36,10 @@ const Info = styled.div`
 
 const Contact = styled.div`
   margin: 2rem 0;
+
+  & a {
+    margin-right: .5rem;
+  }
 `
 
 const Address = styled.div`
@@ -51,6 +55,7 @@ const Button = styled.button`
   border: 0;
   border-radius: 3px;
   color: var(--light);
+  cursor: pointer;
   padding: 12px 32px;
   font-size: 1.2rem;
   margin-bottom: 1.2rem;
@@ -80,6 +85,7 @@ const Location = () => {
                 <Contact>
                     <Title>Contact</Title>
                     <a href="tel:+1-804-243-4080"><Button>Call</Button></a>
+                    <a href="sms:+1-804-243-4080"><Button>Message</Button></a>
                     <Text>(804) 243-4080</Text>
                 </Contact>
                 <Address>

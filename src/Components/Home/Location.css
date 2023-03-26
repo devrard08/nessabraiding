@@ -26,11 +26,4 @@ ul li span:first-child::after {
     width: 100%;
    
   }
-
-  ul li {
-  /* display: block; */
-  display: grid;
-  margin-bottom: .5rem;
-  padding: .2rem;
-}
 }
